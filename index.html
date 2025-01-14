@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="intro">
+      <p>Hello, It's Me</p>
+      <h1>JAGODAGE MALIDU DEEPSIRI</h1>
+      <p>And I'm a <span class="highlight">Web Developer</span></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Possimus nulla sed saepe rerum, animi expedita.</p>
+      <div class="social-links">
+        <a href="https://web.facebook.com/profile.php?id=100057349869125&mibextid=ZbWKwL&_rdc=1&_rdr#">
+          <img src="facebook-logo-2019.png" alt="Facebook">
+        </a>
+        <a href="#"><img src="x-twitter-logo-on-black-circle-5694247.png" alt="Twitter"></a>
+        <a href="https://github.com/malidudeepsiri">
+          <img src="kisspng-github-computer-icons-node-js-circle-pack-5adb933cc5ffc2.914040391524339516811.jpg" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/jagodage-malidu-deepsiri-356979343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+          <img src="LinkedIn_icon.svg.png" alt="LinkedIn">
+        </a>
+      </div>
+      <a href="malidu1.jpg" class="btn">Download CV</a>
+    </div>
+    <div class="profile-image">
+      <img src="malidu.jpg" alt="Malidu">
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Hello! I'm Jagodage Malidu Deepsiri, a passionate web developer and graphic designer from Anuradhapura. With a strong background in HTML, CSS, Java, PHP, and UI/UX design, I specialize in creating modern, user-friendly websites and designs.
+        </p>
+        <p>
+          I completed my NVQ4 course in web development at the Vocational Training Centre - Talalla and hold an Advanced Certificate in ICT from SIBA Campus. Whether it's designing a portfolio, editing graphics, or crafting a website, I aim to deliver creative and functional solutions.
+        </p>
+        <p>
+          When I'm not coding or designing, I enjoy writing diaries, imagining new ideas, and spending time with my dog, Rocky.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="Soft copy.jpg" alt="Malidu's Photo">
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, PHP</p>
+      </div>
+      <div class="skill">
+        <h3>UI/UX Design</h3>
+        <p>Figma, Adobe XD</p>
+      </div>
+      <div class="skill">
+        <h3>Graphic Design</h3>
+        <p>Adobe Illustrator, Photoshop</p>
+      </div>
+      <div class="skill">
+        <h3>Tools & Platforms</h3>
+        <p>Microsoft Office, Azure Fundamentals</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio-section">
+    <h2>My Project</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="Screenshot 2025-01-03 231810.png" alt="Project 1">
+        <div class="portfolio-info">
+          <h3>Project Title 1</h3>
+          <p>A short description of the project.</p>
+          <a href="Malidu/html 1/Sign up.html" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="Screenshot 2025-01-03 232926.png" alt="Project 2">
+        <div class="portfolio-info">
+          <h3>Project Title 2</h3>
+          <p>A short description of the project.</p>
+          <a href="new/malidu.html" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="Screenshot 2025-01-03 233257.png" alt="Project 3">
+        <div class="portfolio-info">
+          <h3>Project Title 3</h3>
+          <p>A short description of the project.</p>
+          <a href="fom/malidu.html" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-form">
+      <form action="Index.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
